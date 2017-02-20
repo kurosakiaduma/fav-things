@@ -11,11 +11,49 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js\script.js" type="text/javascript"></script>
-    <title>TTITLE HERE</title>
+    <title>Favorite things</title>
 </head>
-<body>
 
+<body>
+    <div class="container">
+        <h1>Tell us about some o the things that you love!</h1>
+        <div id="blanks">
+            <form>
+                <div class="form-group">
+                    <label for="name">A name</label>
+                    <input id="name" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="game">A game</label>
+                    <input id="game" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="animal">An animal</label>
+                    <input id="animal" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="sport">A sport</label>
+                    <input id="sport" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="book">A book</label>
+                    <input id="book" class="form-control" type="text">
+                </div>
+                <button type="submit" class="btn">Click to see how I prefer them!</button>
+            </form>
+        </div>
+
+        <div id="favorite-things">
+            <h1>I love your favorite things based on this preference:</h1>
+            <ul>
+                <li class="game"></li>
+                <li class="name"></li>
+                <li class="animal"></li>
+            </ul>
+        </div>
+    </div>
 
 
 </body>
+
 </html>
